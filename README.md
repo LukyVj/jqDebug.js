@@ -44,4 +44,8 @@ Just specify it like the following :
 If you have any questions, suggestions, ideas. 
 Feel free to open issues, or to send me a tweet (@LukyVj)
 
-
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
