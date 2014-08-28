@@ -16,7 +16,7 @@ Then, after the jquery inclusion, add :
 
 ###Specify wich HTML elements needs debugging</span>
 Now, go to your HTML document, and specify which elements needs a debug, proceed like the following: 
-````
+````html
 <div class="my-awesome-div" data-debug="red">...</div>
 <a class="my-awesome-link" data-debug="blue">...</a>
 <img src="path/to/my/image.png" alt="An awesome image" data-debug="green"/>
