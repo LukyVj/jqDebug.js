@@ -29,23 +29,16 @@ This will specify to the function, which color to add to the debug process for t
 And now, just define the kind of debugging you want to see. 
 
 There is few different choices : 
-- color : Will color the content (text) inside of your elements. 
-- background : Will color the background of your elements.
-- border : Will generate & color the border around your elements. 
-- box-shadow : Will generate & color the box-shadow around your elements. 
 
-Just specify it like the following : 
-`debug('color')`
-`debug('background')`
-`debug('border')`
-`debug('box-shadow')`
+| Type  | Call it  | Effect |
+| :------------ |:---------------:| -----:|
+| color      | debug('color') | Will color the content (text) inside of your elements.  |
+| background      | debug('background') | Will color the background of your elements.  |
+| border      | debug('border')     | Will generate & color the border around your elements.  |
+| box-shadow | debug('box-shadow')    | Will generate & color the box-shadow around your elements. |
+
 
 ### Now 
 If you have any questions, suggestions, ideas. 
 Feel free to open issues, or to send me a tweet (@LukyVj)
 
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
