@@ -6,10 +6,11 @@
 
 function debug($rule){
   var debug = $('[data-debug]');
-  var debugColor = debug.attr('data-debug');
   
   debug.each(function(){
-    var $this = $(this);
+		var $this = $(this);
+		var debugColor = $this.attr('data-debug');
+
     if($rule == 'box-shadow'){
        $this.css($rule,'0 0 1em ' + debugColor);
     }
@@ -19,5 +20,5 @@ function debug($rule){
     else{
        $this.css($rule, debugColor);
     }
-  })
+  });
 } 
