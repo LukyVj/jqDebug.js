@@ -32,10 +32,18 @@ There is few different choices :
 
 | Type  | Call it  | Effect |
 | :------------ |:---------------:| -----:|
-| color      | debug('color') | Will color the content (text) inside of your elements.  |
-| background      | debug('background') | Will color the background of your elements.  |
-| border      | debug('border')     | Will generate & color the border around your elements.  |
-| box-shadow | debug('box-shadow')    | Will generate & color the box-shadow around your elements. |
+| color      | `debug('color')` | Will color the content (text) inside of your elements.  |
+| background      | `debug('background')` | Will color the background of your elements.  |
+| border      | `debug('border')`     | Will generate & color the border around your elements.  |
+| box-shadow | `debug('box-shadow')`    | Will generate & color the box-shadow around your elements. |
+
+
+Now, right after the jqDebug script tag inclusion, just add an other script tag, specifying which kind of debug you want. 
+```html
+<script type="text/javascript">
+  debug('background')
+</script>
+```
 
 
 ### Now 
