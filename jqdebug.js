@@ -4,12 +4,6 @@
   Date : Aug 2014
 */
 
-/* 
-  jqDebug.js | A tiny jquery debug function.
-  Author : @LukyVj
-  Date : Aug 2014
-*/
-
 function debug($rule){
   var debug = $('[data-debug]');
   var debugColor = debug.attr('data-debug');
