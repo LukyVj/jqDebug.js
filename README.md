@@ -10,11 +10,11 @@ To use the jqDebug.js, you have to follow these steps :
 - [Specify wich HTML elements needs debugging](#three)
 - [Launch the debugging function](#four)
 
-<span id="one">#### Load jQuery on your website</span>
+####<span id="one">Load jQuery on your website</span>
 Right before the closing `</body>` tag, add :
         <script type="text/javascript" src="path/to/jquery.min.js">
         
-<span id="two">#### Load jqDebug.js right after jquery</span>
+#### <span id="two">Load jqDebug.js right after jquery</span>
 Then, after the jquery inclusion, add :
         <script type="text/javascript" src="path/to/jqdebug.min.js">
 
@@ -27,7 +27,7 @@ Now, go to your HTML document, and specify which elements needs a debug, proceed
         
 This will specify to the function, which color to add to the debug process for this item.
 
-<span id="four">#### Launch the debugging function</span>
+#### <span id="four">Launch the debugging function</span>
 And now, just define the kind of debugging you want to see. 
 There is few different choices : 
 - color : Will color the content (text) inside of your elements. 
