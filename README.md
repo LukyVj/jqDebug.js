@@ -43,7 +43,7 @@ Now, right after the jqDebug script tag inclusion, just add an other script tag,
 <script type="text/javascript" src="path/to/jquery.min.js"></script>
 <script type="text/javascript" src="path/to/jqdebug.min.js"></script>
 <script type="text/javascript">
-  debug('background')
+  debug('background');
 </script>
 ```
 
