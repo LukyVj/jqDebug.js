@@ -46,7 +46,9 @@ Now, right after the jqDebug script tag inclusion, just add an other script tag,
   debug('background');
 </script>
 ```
-
+### Example
+<p data-height="268" data-theme-id="294" data-slug-hash="skAnz" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/LukyVj/pen/skAnz/'>skAnz</a> by LukyVJ (<a href='http://codepen.io/LukyVj'>@LukyVj</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="http://codepen.io/assets/embed/ei.js"></script>
 
 ### Now 
 If you have any questions, suggestions, ideas. 
