@@ -40,6 +40,8 @@ There is few different choices :
 
 Now, right after the jqDebug script tag inclusion, just add an other script tag, specifying which kind of debug you want. 
 ```html
+<script type="text/javascript" src="path/to/jquery.min.js">
+<script type="text/javascript" src="path/to/jqdebug.min.js">
 <script type="text/javascript">
   debug('background')
 </script>
